@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		080D4D1F2178EDCA00FD5A28 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080D4D1E2178EDCA00FD5A28 /* BaseViewController.swift */; };
+		080D4D212178EE0A00FD5A28 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080D4D202178EE0A00FD5A28 /* MenuViewController.swift */; };
+		080D4D232178EF5300FD5A28 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080D4D222178EF5300FD5A28 /* FirstViewController.swift */; };
+		080D4D252178F90200FD5A28 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080D4D242178F90200FD5A28 /* API.swift */; };
 		0850A4F62178DE4C002F1F3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0850A4F52178DE4C002F1F3E /* AppDelegate.swift */; };
 		0850A4F82178DE4C002F1F3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0850A4F72178DE4C002F1F3E /* ViewController.swift */; };
 		0850A4FB2178DE4C002F1F3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0850A4F92178DE4C002F1F3E /* Main.storyboard */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		080D4D1E2178EDCA00FD5A28 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		080D4D202178EE0A00FD5A28 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		080D4D222178EF5300FD5A28 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		080D4D242178F90200FD5A28 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		0850A4F22178DE4C002F1F3E /* TestIOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestIOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0850A4F52178DE4C002F1F3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0850A4F72178DE4C002F1F3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -98,7 +106,11 @@
 			isa = PBXGroup;
 			children = (
 				0850A4F52178DE4C002F1F3E /* AppDelegate.swift */,
+				080D4D222178EF5300FD5A28 /* FirstViewController.swift */,
 				0850A4F72178DE4C002F1F3E /* ViewController.swift */,
+				080D4D1E2178EDCA00FD5A28 /* BaseViewController.swift */,
+				080D4D202178EE0A00FD5A28 /* MenuViewController.swift */,
+				080D4D242178F90200FD5A28 /* API.swift */,
 				0850A4F92178DE4C002F1F3E /* Main.storyboard */,
 				0850A4FC2178DE4D002F1F3E /* Assets.xcassets */,
 				0850A4FE2178DE4D002F1F3E /* LaunchScreen.storyboard */,
@@ -257,7 +269,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0850A4F82178DE4C002F1F3E /* ViewController.swift in Sources */,
+				080D4D212178EE0A00FD5A28 /* MenuViewController.swift in Sources */,
+				080D4D1F2178EDCA00FD5A28 /* BaseViewController.swift in Sources */,
+				080D4D232178EF5300FD5A28 /* FirstViewController.swift in Sources */,
 				0850A4F62178DE4C002F1F3E /* AppDelegate.swift in Sources */,
+				080D4D252178F90200FD5A28 /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +449,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W4NC7B77A6;
 				INFOPLIST_FILE = TestIOSApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,6 +468,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W4NC7B77A6;
 				INFOPLIST_FILE = TestIOSApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
